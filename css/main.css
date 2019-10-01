@@ -1,0 +1,480 @@
+body {
+  background-image: url(img/mainbg.png);
+}
+p a {
+  font-size: 16px;
+  text-decoration: underline;
+}
+h3,
+h4,
+h5 {
+  color: #0C3440;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 1000px) {
+  .hideme {
+    visibility: hidden;
+    display: none;
+  }
+  .sidemenu,
+  .selector {
+    display: block;
+    text-align: center;
+  }
+}
+.section {
+  background-image: url(img/mainbg.png);
+}
+.container {
+  max-width: 1300px;
+}
+a {
+  color: #eb5757;
+}
+.header {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 55px;
+  text-align: justify;
+  text-transform: uppercase;
+  color: #0c3440;
+}
+.headmenu {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: right;
+  text-transform: uppercase;
+}
+.sidemenu {
+  margin-bottom: 25px;
+}
+.sidemenu a {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: auto;
+  text-transform: uppercase;
+  display: block;
+}
+.textblock {
+  margin-left: 15px;
+  margin-top: 25px;
+}
+.otstup {
+  margin-bottom: 40px;
+}
+.sml {
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 1;
+  text-align: auto;
+  text-transform: uppercase;
+  color: #9FA2B1;
+}
+.headline {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 28px;
+  text-align: justify;
+  text-transform: uppercase;
+  color: #0c3440;
+  font-style: normal;
+}
+.headlinebig {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 44px;
+  text-align: auto;
+  text-transform: uppercase;
+  color: #0c3440;
+  font-style: normal;
+}
+.headlinezg {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 17px;
+  text-align: justify;
+  text-transform: uppercase;
+  color: #447D8D;
+  font-style: normal;
+}
+.headlinezgdata {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 17px;
+  text-align: justify;
+  text-transform: uppercase;
+  color: #9FA2B1;
+  font-style: normal;
+  opacity: 0.8;
+}
+.headlinezgdata2 {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: justify;
+  color: #4E6D76;
+}
+.text-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  text-align: justify;
+  color: #0C3440;
+  margin-top: 10px;
+}
+.btn-my {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 17px;
+  text-align: justify;
+  text-transform: uppercase;
+  border-radius: 15px;
+  border: 1px solid #EB5757;
+  background: white;
+  color: #EB5757;
+}
+.anno {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: justify;
+  font-family: PT Serif;
+  color: #0c3440;
+}
+.anno1 {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 24px;
+  text-align: justify;
+  font-style: normal;
+  color: #4E6D76;
+}
+.selector {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: auto;
+}
+.opa {
+  opacity: 0.25;
+}
+.tal {
+  text-align: right;
+}
+div img {
+  margin-top: 30px;
+}
+.nomargin {
+  margin-top: 0;
+  margin-left: -20px;
+}
+.faximile {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1;
+  text-align: auto;
+  font-family: PT Serif;
+  font-style: normal;
+  color: #4E6D76;
+  margin-bottom: 50px;
+}
+.li-ne {
+  border-bottom: 1px solid rgba(192, 192, 192, 0.6);
+  font-family: Montserrat;
+}
+.li-da {
+  border-left: 1px solid rgba(192, 192, 192, 0.6);
+}
+.starz {
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 50px;
+  text-align: center;
+  color: #4E6D76;
+}
+.anotherlink {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 22px;
+  text-align: auto;
+  text-transform: uppercase;
+  margin-top: 20px;
+  color: #EB5757;
+}
+.txtpodelu {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 24px;
+  text-align: justify;
+  text-transform: uppercase;
+  font-family: PT Serif;
+  font-style: italic;
+  color: #0c3440;
+}
+.txtpodelu a {
+  color: #EB5757;
+}
+.prevuistatii {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: justify;
+  text-transform: uppercase;
+  font-style: normal;
+  color: #0c3440;
+}
+.smllink {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 17px;
+  text-align: justify;
+  color: #4E6D76;
+}
+.lest {
+  margin-left: 20px;
+}
+.lest1 {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.zagolovok {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 27px;
+  text-align: justify;
+  text-transform: uppercase;
+  font-style: normal;
+  color: #0c3440;
+}
+.projecttext {
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 23px;
+  text-align: justify;
+  color: #0c3440;
+  font-family: PT Serif;
+  font-style: normal;
+}
+.antherlink {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 17px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #EB5757;
+}
+.podpis {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 35px;
+  text-align: center;
+  font-family: PT Serif;
+  font-style: italic;
+  color: #4E6D76;
+}
+.tac {
+  text-align: center;
+}
+.taj {
+  text-align: justify;
+}
+.mto {
+  margin-top: 0px;
+}
+.quote {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 24px;
+  text-align: justify;
+  font-family: PT Serif;
+  font-style: italic;
+  color: #0c3440;
+}
+.yelbrdr {
+  border-left: 5px solid #F5BD64;
+}
+.gdeopublikovano {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+  text-align: auto;
+  font-family: PT Serif;
+  font-style: italic;
+  color: #4E6D76;
+}
+.citata {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 20px;
+  text-align: right;
+  font-family: PT Serif;
+  font-style: italic;
+  color: #4E6D76;
+}
+.omne1 {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  text-align: justify;
+  font-family: PT Serif;
+  font-style: normal;
+  color: #0c3440;
+}
+.dscl {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  text-align: justify;
+  font-family: PT Serif;
+  font-style: italic;
+  color: #0c3440;
+  margin-left: -25px;
+}
+.ftr a {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: auto;
+  text-transform: uppercase;
+  font-style: normal;
+  margin-left: -15px;
+}
+.ftr p {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 24px;
+  text-align: justify;
+  font-family: PT Serif;
+  font-style: normal;
+  color: #4E6D76;
+  margin-left: -15px;
+}
+.eelmaname {
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 40px;
+  text-align: auto;
+  color: #0c3440;
+  font-family: PT Serif;
+  font-style: normal;
+}
+.CCCR {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 21px;
+  text-align: auto;
+  font-family: PT Serif;
+  font-style: italic;
+  color: #4E6D76;
+}
+.anothertext {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  text-align: auto;
+  font-family: PT Serif;
+  font-style: normal;
+  color: #4E6D76;
+}
+.anothertext a {
+  text-decoration: underline;
+}
+.anotherheader {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: auto;
+  text-transform: uppercase;
+  color: #0C3440;
+  font-style: normal;
+}
+.poezdat {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 24px;
+  text-align: auto;
+  font-family: PT Serif;
+  font-style: normal;
+  color: #0C3440;
+}
+.fcknlink {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: auto;
+  border: 1px dotted #4E6D76;
+  border-radius: 15px;
+  font-family: PT Serif;
+  font-style: normal;
+  letter-spacing: -0.01em;
+}
+.poezdatsml {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 21px;
+  text-align: auto;
+  color: #0c3440;
+  font-family: PT Serif;
+  font-style: normal;
+}
+.hnya {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 18px;
+  text-align: auto;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: PT Serif;
+  font-style: normal;
+  color: #4E6D76;
+}
+.anthertext {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  color: #0c3440;
+}
+.bignum {
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 59px;
+  text-align: justify;
+  text-transform: uppercase;
+  font-style: normal;
+  color: #FF7B6F;
+}
+.smlnum {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: justify;
+  font-family: Montserrat;
+  font-style: normal;
+  color: #4E6D76;
+  margin-left: 25px;
+}
+.text488 {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 21px;
+  text-align: justify;
+  font-family: PT Serif;
+  font-style: italic;
+  color: #4E6D76;
+}

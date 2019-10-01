@@ -1,0 +1,357 @@
+
+@linkcolor: #EB5757;
+@textcolor: #0C3440;
+
+body{
+  background-image: url(img/mainbg.png);
+}
+
+p a {
+  font-size: 16px;
+  text-decoration: underline;
+}
+h3, h4, h5{
+color: #0C3440;
+font-family: Montserrat;
+}
+@media screen and (max-width: 1000px) {
+  .hideme {
+    visibility: hidden;
+    display: none;
+  }
+  .sidemenu, .selector{
+    display: block;
+    text-align: center;
+  }
+}
+.section{
+  background-image: url(img/mainbg.png);
+}
+.container{
+  max-width: 1300px;
+}
+a{
+	color: @linkcolor;
+}
+.fontsml(@fzs: 40px, @fws: bold, @lhs:55px, @tas: justify){
+  font-size: @fzs;
+  font-weight: @fws;
+  line-height: @lhs;
+  text-align: @tas;
+ }
+.font(@fz: 40px, @fw: bold, @lh:55px, @ta: justify){
+  font-size: @fz;
+  font-weight: @fw;
+  line-height: @lh;
+  text-align: @ta;
+  text-transform: uppercase;
+}
+.fontmont(@fz1 :14px, @fw1: bold, @lh1:55px, @ta1: justify){
+  font-family: Montserrat;
+  font-size: @fz1;
+  font-weight: @fw1;
+  line-height: @lh1;
+  text-align: @ta1;
+  text-transform: uppercase;
+}
+.header{
+	.font(40px, bold, 55px, justify);
+	color: @textcolor;
+}
+.headmenu{
+	.fontmont(14px, 300, 28px, right);
+}
+.sidemenu{
+   margin-bottom: 25px;
+   a{
+  .font(18px, bold, 1.5, auto);
+  display: block;
+}
+}
+.textblock{
+  margin-left: 15px;
+  margin-top:25px;
+}
+.otstup{
+  margin-bottom: 40px;
+}
+.sml{
+	.font(11px, bold, 1, auto);
+	color:#9FA2B1;
+}
+.headline{
+	.fontmont(24px, bold, 28px, justify);
+	color: @textcolor;
+	font-style: normal;
+}
+.headlinebig{
+	.fontmont(36px, bold, 44px, auto);
+	color: @textcolor;
+	font-style: normal;
+}
+.headlinezg{
+	.fontmont(12px, normal, 17px, justify);
+	color: #447D8D;;
+	font-style: normal;
+}
+.headlinezgdata{
+	.fontmont(14px, normal, 17px, justify);
+	color: #9FA2B1;
+	font-style: normal;
+	opacity: 0.8;
+}
+.headlinezgdata2{
+	font-style: normal;
+font-size: 14px;
+line-height: 17px;
+text-align: justify;
+color: #4E6D76;
+}
+.text-text{
+	font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+font-size: 15px;
+text-align: justify;
+color: #0C3440;
+margin-top: 10px;
+}
+.btn-my{
+	.fontmont(14px, bold, 17px, justify);
+  border-radius: 15px;
+  border: 1px solid #EB5757;
+  background: white;
+  color: #EB5757;
+}
+.anno{
+	.fontsml(18px, 500, 24px, justify);
+font-family: PT Serif;
+color: @textcolor;
+}
+.anno1{
+	.fontsml(18px, normal, 24px, justify);
+font-style: normal;
+color: #4E6D76;
+}
+.selector{
+	.fontsml(17px, 500, 1.5, auto);
+}
+.opa{
+  opacity: 0.25;
+}
+.tal{
+  text-align: right;
+}
+div img{
+  margin-top: 30px;
+}
+.nomargin{
+  margin-top:0;
+  margin-left: -20px;
+}
+.faximile{
+	.fontsml(12px, normal,1,auto);
+	font-family: PT Serif;
+	font-style: normal;
+	color: #4E6D76;
+	margin-bottom: 50px;
+}
+.li-ne{
+  border-bottom: 1px solid rgba(192,192,192,0.6);
+font-family: Montserrat;
+}
+.li-da{
+  border-left: 1px solid rgba(192,192,192,0.6);
+}
+.starz{
+	.fontsml(25px, normal, 50px, center);
+	color: #4E6D76;
+}
+.anotherlink{
+	.font(18px, normal, 22px, auto);
+	margin-top: 20px;
+	color: #EB5757;
+}
+.txtpodelu{
+   .font(18px, normal, 24px, justify);
+   font-family: PT Serif;
+	font-style: italic;
+	color: @textcolor;
+	a {
+		color: #EB5757;
+	}
+}
+.prevuistatii{
+	.font(20px, bold, 24px, justify);
+	font-style: normal;
+	color: @textcolor;
+}
+.smllink{
+	.fontsml(14px, normal, 17px,justify);
+	color: #4E6D76;
+}
+.lest{
+  margin-left: 20px;
+}
+.lest1{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.zagolovok{
+	.fontmont(22px, bold, 27px, justify);
+	font-style: normal;
+	color: @textcolor;
+}
+.projecttext{
+	.fontsml(17px, normal, 23px, justify);
+	color: @textcolor;
+	font-family: PT Serif;
+	font-style: normal;
+}
+.antherlink{
+	.fontsml(14px, normal, 17px, right);
+	text-decoration-line: underline;
+	color: #EB5757;
+}
+.podpis{
+	.fontsml(14px, normal, 35px, center);
+	font-family: PT Serif;
+	font-style: italic;
+	color: #4E6D76;
+}
+.tac{
+  text-align: center;
+}
+.taj{
+  text-align: justify;
+}
+.mto{
+  margin-top: 0px;
+}
+.quote{
+	.fontsml(18px, normal, 24px, justify);
+	font-family: PT Serif;
+	font-style: italic;
+	color: @textcolor;
+}
+.yelbrdr{
+  border-left: 5px solid #F5BD64;
+}
+.gdeopublikovano{
+	.fontsml(16px, normal, 20px, auto);
+	font-family: PT Serif;
+	font-style: italic;
+	color: #4E6D76;
+}
+.citata{
+	.fontsml(15px, normal, 20px, right);
+	font-family: PT Serif;
+	font-style: italic;
+	color: #4E6D76;
+}
+.omne1{
+	.fontsml(16px, normal, 24px, justify);
+	font-family: PT Serif;
+	font-style: normal;
+	color: @textcolor;
+}
+.dscl{
+	.fontsml(16px, normal, 24px, justify);
+	font-family: PT Serif;
+	font-style: italic;
+	color: @textcolor;
+	margin-left: -25px;
+}
+.ftr{
+	a{
+		.fontmont(15px, 500, 20px, auto);
+		font-style: normal;
+		margin-left: -15px;
+	}
+	p{
+		.fontsml(15px, normal, 24px, justify);
+		font-family: PT Serif;
+		font-style: normal;
+		color: #4E6D76;
+		margin-left: -15px;
+	}
+}
+.eelmaname{
+	.fontsml(30px, normal, 40px, auto);
+	color: @textcolor;
+	font-family: PT Serif;
+	font-style: normal;
+}
+.CCCR{
+	.fontsml(16px, normal, 21px, auto);
+	font-family: PT Serif;
+	font-style: italic;
+	color: #4E6D76;
+}
+.anothertext{
+	.fontsml(16px, normal, 24px, auto);
+	font-family: PT Serif;
+	font-style: normal;
+	color: #4E6D76;
+
+	a{
+		text-decoration: underline;
+	}
+}
+.anotherheader{
+	.fontmont(18px, bold, 22px, auto);
+	color: #0C3440;
+	font-style: normal;
+}
+.poezdat{
+	.fontsml(18px, normal, 24px, auto);
+	font-family: PT Serif;
+	font-style: normal;
+	color: #0C3440;
+}
+.fcknlink{
+	.fontsml(18px, bold, 24px, auto);
+	border: 1px dotted #4E6D76;
+	border-radius: 15px;
+	font-family: PT Serif;
+	font-style: normal;
+	letter-spacing: -0.01em;
+}
+.poezdatsml{
+	.fontsml(16px, normal, 21px, auto);
+	color: @textcolor;
+	font-family: PT Serif;
+	font-style: normal;
+}
+.hnya{
+	.fontsml(16px, normal, 18px, auto);
+	display: inline-block;
+    vertical-align: middle;
+    font-family: PT Serif;
+	font-style: normal;
+	color: #4E6D76;
+}
+.anthertext{
+	.fontsml(14px, 500, 17px, center);
+	font-family: Montserrat;
+	font-style: normal;
+	color: @textcolor;
+}
+.bignum{
+	.fontmont(48px, 300, 59px, justify);
+	font-style: normal;
+	color: #FF7B6F;
+}
+.smlnum{
+	.fontsml(25px, 300, 30px, justify);
+	font-family: Montserrat;
+	font-style: normal;
+	color: #4E6D76;
+	margin-left: 25px;
+}
+.text488{
+	.fontsml(16px, normal, 21px, justify);
+	font-family: PT Serif;
+	font-style: italic;
+	color: #4E6D76;
+}
