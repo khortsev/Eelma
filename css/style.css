@@ -2,7 +2,8 @@
   font-family: 'Montserrat', sans-serif;
 } хуевое решение №1*/
 body{
-  background-image: url(../img/mainbg.png);
+  
+
 }
 a{
   color: #EB5757;
@@ -26,7 +27,8 @@ font-family: Montserrat;
   }
 }
 .section{
-  background-image: url(img/mainbg.png);
+  background-image: url(../img/mainbg.png);
+  background-repeat: no-repeat;
 }
 .container{
   max-width: 1300px;
@@ -177,7 +179,7 @@ div img{
 }
 .nomargin{
   margin-top:0;
-  margin-left: -20px;
+  margin-left: -15px;
 }
 .faximile{
   font-family: PT Serif;
