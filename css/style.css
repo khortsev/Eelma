@@ -29,10 +29,14 @@ font-family: Montserrat;
 .section{
   background-image: url(../img/mainbg.png);
   background-repeat: no-repeat;
+  background-position: top;
 }
 .container{
   max-width: 1300px;
   background-color: #fff;
+}
+.container_index{
+  height: 1070px;
 }
 
 .header{
