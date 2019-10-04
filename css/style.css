@@ -2,7 +2,7 @@
   font-family: 'Montserrat', sans-serif;
 } хуевое решение №1*/
 body{
-  background-image: url(img/mainbg.png);
+  background-image: url(../img/mainbg.png);
 }
 a{
   color: #EB5757;
@@ -30,6 +30,7 @@ font-family: Montserrat;
 }
 .container{
   max-width: 1300px;
+  background-color: #fff;
 }
 
 .header{
