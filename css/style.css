@@ -157,6 +157,8 @@ line-height: 24px;
 color: #0C3440;
 font-family: PT Serif;
 text-align: justify;
+visibility: visible;
+
 }
 .anno1{
   font-size: 18px;
@@ -468,3 +470,11 @@ line-height: 21px;
 text-align: justify;
 color: #4E6D76;
 }
+.blue{
+  color: blue;
+  text-decoration: underline;
+}
+.hide_me_js {
+    visibility: hidden;
+    display: none;
+  }
