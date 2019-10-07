@@ -70,7 +70,7 @@ text-transform: uppercase;
   margin-left: 15px;
   margin-top:25px;
 }
-.otstup{
+.margin_btn{
   margin-bottom: 40px;
 }
 .sml {
@@ -247,7 +247,7 @@ color: #4E6D76;
   margin-left: 20px;
   margin-bottom: 20px;
 }
-.zagolovok{
+.title{
   font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
@@ -274,7 +274,7 @@ text-decoration-line: underline;
 color: #EB5757;
 text-align: right;
 }
-.podpis{
+.faximile_img{
   font-family: PT Serif;
 font-style: italic;
 font-weight: normal;
@@ -304,7 +304,7 @@ color: #0C3440;
 .yelbrdr{
   border-left: 5px solid #F5BD64;
 }
-.gdeopublikovano{
+.source{
   font-family: PT Serif;
 font-style: italic;
 font-weight: normal;
@@ -312,7 +312,7 @@ font-size: 16px;
 line-height: 20px;
 color: #4E6D76;
 }
-.citata{
+.quote_main{
 font-family: PT Serif;
 font-style: italic;
 font-weight: normal;
