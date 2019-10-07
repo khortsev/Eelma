@@ -14,4 +14,10 @@ $('h3').click(function() {
 	$('p.hide_me_js').addClass('anno').removeClass('hide_me_js');
 });
 
+$('.burger_btn').on('click', function(e){
+	e.preventDefault;
+	$(this).toggleClass('burger_btn_active');
+	$('.menu_nav').toggleClass('menu_nav_active')
+});
+
 });
